@@ -42,3 +42,16 @@ function sortearAmigo() {
     document.getElementById('resultado').innerHTML = `O amigo sorteado é: <strong>${amigoDaLista}<strong>`;
 }
 
+function reiniciar() {
+    //Limpar lista
+    amigoSecreto = [];
+    atualizarLista();
+
+    //Limpar o campo de entrada.
+    document.getElementById('amigo').value = '';
+
+    //Limpar o campo de resultado
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = '';
+
+}

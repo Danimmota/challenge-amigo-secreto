@@ -3,6 +3,7 @@
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
+    --color-button-new:#444444;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -147,6 +148,7 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
+    margin: 10px;
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
@@ -158,5 +160,25 @@ ul {
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Botão de novo sorteio */
+.button-new {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px 40px; /* Adiciona um pouco de preenchimento dentro dos botões para maior área clicável */
+    color: var(--color-white);
+    background-color: var(--color-button-new);
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.button-new img {
+    margin-right: 40px;
+}
+
+.button-new:hover {
     background-color: var(--color-button-hover);
 }
