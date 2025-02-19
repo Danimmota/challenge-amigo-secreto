@@ -53,12 +53,11 @@ Para rodar este projeto, você precisará do seguinte:
 ### Reiniciar
 - Clique em **Reiniciar** para começar de novo.
 
-## Personalizações Possíveis
+## Funcionalidade possíveis para adicionar
 
 Você pode alterar as cores, fontes e adicionar novas funcionalidades no projeto. O código está modular, o que facilita edições e adições.
 
-- **Alterar a cor dos botões**: Modifique a variável `--color-button` no arquivo CSS.
-- **Adicionar mais funcionalidades**: Se quiser adicionar mais funcionalidades como ver todos os sorteios realizados, ou enviar e-mail, basta modificar o código JavaScript.
+- **Funcionalidades**: Ver todos os sorteios realizados, ou enviar o resultado via e-mail.
 
 ## Contribuições
 
